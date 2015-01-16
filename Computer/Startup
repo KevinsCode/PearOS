@@ -43,7 +43,7 @@ function verbosePrint(message)
 end
 
 function displaySystemNoSupport()
-	--add a message saying that the display has been moved to monitor
+	--add a message saying that the display is not supported
 	screensizex, screensizey = term.getSize()
 	line = screensizey/2-2
 	PrintCentered("This computer is not supported.",line)
